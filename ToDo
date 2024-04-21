@@ -1,0 +1,9 @@
+A script to generate require folders structure for unity Project 
+A script to remove unwanted packages from unity
+A script to download .gitignore file for unity
+A Script to generate Plantuml class 
+    puml-gen InputPath [OutputPath] [-dir] [-public | -ignore IgnoreAccessibilities] [-excludePaths ExcludePathList] [-createAssociation]
+    puml-gen C:\Source\App1 C:\PlantUml\App1 -dir -ignore Private,Protected -createAssociation -allInOne
+    dotnet tool install --global PlantUmlClassDiagramGenerator
+
+Basic Readme.md
